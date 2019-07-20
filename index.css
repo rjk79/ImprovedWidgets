@@ -1,0 +1,73 @@
+.apps {
+  width: 400px;
+  margin: auto;
+}
+
+
+
+.clock {
+  padding: 10px;
+  display: block;
+  height: 175px;
+  
+  background: hotpink;
+  border: 2px solid black;
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  background: mediumturquoise;
+  border: 2px solid black;
+  color: white;
+  font-family: 'Permanent Marker', cursive;
+  padding: 10px;
+  display: block;
+  height: 175px;
+  text-align: center;
+  
+}
+
+.tabSelector span {
+  border-top: 4px black solid;
+  border-left: 4px black solid;
+  border-right: 4px black solid;
+  padding: 2px;
+  border-width: 1px;
+  border-radius: 5px 5px 0 0;
+  background: mediumturquoise;
+  color: black;
+  font-family: 'Permanent Marker', cursive;
+  cursor: pointer;  
+  width: 52px;
+  text-align: center;
+}
+
+.tabSelector {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+span:hover { 
+  color: white;
+  background: black;
+}
+.weather {
+    background: greenyellow;
+    font-family: 'Permanent Marker', cursive;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.autocomplete {
+  background: yellow;
+  font-family: 'Permanent Marker', cursive;
+  border: 2px solid black;
+  text-align: center;
+  height: 200px;
+}
